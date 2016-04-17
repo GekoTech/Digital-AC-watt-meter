@@ -2,11 +2,14 @@
 ![Watt meter](https://github.com/GekoTech/Digital-AC-watt-meter/blob/master/Images/Device/_MG_4526.jpg)
 ##General description:
 *  This Digital AC Watt Meter is engineered for people who are curious about the energy consumed by home appliances such as TV’s, PC’s or even such small things like mobile phones which are connected to 230V/50Hz main network via charger.
-* 	It is very easy to understand because it is made on very commonly used Arduino UNO board which is based on ATmega328P microcontroller. Actually the board has two ATmega328P ICs one is used for measurements and display and other is meant for your application.
+* 	Watt meter is very easy to work with because it is made on commonly used Arduino UNO board which is based on ATmega328P microcontroller. Actually the board has two ATmega328P ICs one is used for measurements and display and other is meant for your application.
 * 	It can be used to determine and calculate all kinds of main electrical network measurements such as real power, apparent power, reactive power, phase and energy used by almost any home appliance.
 
+##Usage
+The board would come with stadart version of firmware loaded on ATmega328P that reads sensor data, calculates electrical parametres and drives the LCD and with other mcu that basicaly would serve as Arduino UNO except that it has a serial line dedicated for driving the energy monitoring mcu. In this way all other pins ar left for your application.
+
 ##Contribution
-This project is still in development. Soon we will add Arduino library, example codes and tutorials. If you want to join the development write us an  email to info@gekotech.net and check out the Wiki page.
+This project is still in development. We have designed the hardware and soon we will add Arduino library, example codes and tutorials. If you want to join the development write us an  email to info@gekotech.net and check out the Wiki page.
 
 ##LICENSE
 
