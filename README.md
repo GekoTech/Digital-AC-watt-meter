@@ -6,7 +6,7 @@
 * 	It can be used to determine and calculate all kinds of main electrical network measurements such as real power, apparent power, reactive power, phase and energy used by almost any home appliance.
 
 ##Usage
-The board would come with stadart version of firmware loaded on ATmega328P that reads sensor data, calculates electrical parametres and drives the LCD and with other mcu that basicaly would serve as Arduino UNO except that it has a serial line dedicated for driving the energy monitoring mcu. In this way all other pins ar left for your application.
+The board would come with standart version of firmware loaded onto ATmega328P that reads sensor data, calculates electrical parameters and drives the LCD and with other mcu that basicaly would serve as Arduino UNO except that it has a serial line dedicated for driving the energy monitoring mcu. In this way all other pins ar left for your application.
 
 ##Contribution
 This project is still in development. We have designed the hardware and soon we will add Arduino library, example codes and tutorials. If you want to join the development write us an  email to info@gekotech.net and check out the Wiki page.
